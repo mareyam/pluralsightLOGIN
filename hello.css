@@ -1,0 +1,132 @@
+.body {
+  display: flex;
+}
+.login {
+  background-color: rgb(26, 23, 23);
+  height: 100vh;
+  flex: 1;
+}
+
+.login h1 {
+  color: rgb(184, 181, 181);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 100;
+  justify-content: center;
+  text-align: center;
+}
+.details_div {
+  margin: 22% 10% 0% 10%;
+  border: 2px solid green;
+}
+.pluralsight {
+  margin-bottom: 20%;
+}
+.sign_in {
+  margin-bottom: 15%;
+}
+.footer {
+  border: 2px solid red;
+  margin: 15% 10% 0% 10%;
+}
+
+.login_p {
+  margin-bottom: auto;
+  justify-content: center;
+  text-align: left;
+  color: rgb(184, 181, 181);
+}
+.login_input {
+  background-color: transparent;
+  border: 1px solid rgb(134, 134, 134);
+  margin-bottom: 5%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+.create_acc_button {
+  background-color: #292b2c !important;
+}
+
+.btn {
+  height: 80%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.other1 {
+  color: #59b2ff;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8%;
+}
+.other2 {
+  text-align: center;
+  margin-top: 5%;
+  color: rgb(184, 181, 181);
+  font-size: 10px;
+  padding-left: 5px;
+}
+.a_div {
+  text-align: center;
+}
+.design {
+  flex: 1;
+  width: 100%;
+}
+
+.design_h1 /*whole right side */ {
+  color: rgb(184, 181, 181);
+  border: 2px solid white;
+  height: 100vh;
+  background: url(faded.jpg) no-repeat center center/cover;
+  position: relative;
+}
+
+.design_h1 h1 {
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  -ms-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+  width: 90%;
+}
+.design_h1 button {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+.trail {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  color: rgb(184, 181, 181);
+  border: 1px solid rgb(184, 181, 181);
+}
+
+@media (min-width: 1200px) {
+  .login {
+    flex: 4;
+  }
+  .design {
+    flex: 6;
+  }
+}
+@media (max-width: 475px) {
+  .design_h1 h1,
+  button {
+    display: none;
+  }
+  .login {
+    flex: 100;
+  }
+}
